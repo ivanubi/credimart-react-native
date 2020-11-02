@@ -5,7 +5,7 @@ Credimart (React Native App)
 ### Folder Structure
 
     .   
-    ├── assets                   # Contains all the assets (images, fonts...) used by the application
+    ├── assets                   # Assets (images, fonts...) used by the application
     ├── components               # Common components used by the application.
     │   ├── ImageInput.tsx          # Component that takes a photo as an input
     │   ├── MultipleImageInput.tsx  # Same as ImageInput.tsx but allows multiple photos.
@@ -83,7 +83,7 @@ Or you might need to change the `app.json` file in the main directory. For examp
 
 ##### - Step 2: Install Expo command line tools.
 `npm install --global expo-cli`
-Optional steps (it would make you life easier):
+Optional steps (it would make your life easier):
 
 - Register on Expo (either using the web or using the command `expo register`).
 - Then Login on Expo using `expo login`.
