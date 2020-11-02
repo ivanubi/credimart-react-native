@@ -1,0 +1,15 @@
+export const DEFAULT_FORM_DATA = {
+    sexo: 2,
+    provincia: "SANTIAGO",
+    nivelestudio: "NINGUNO",
+    estado_civil: 2,
+    sexosolicitanteGarante: 2,
+    provinciaGarante: "SANTIAGO",
+    nivelestudioGarante: "NINGUNO",
+    estado_civilGarante: 2,
+    tipogarantia: "VEHÍCULO",
+    tipoempresa: "Publico",
+    vivienda: "propia",
+    estadoVivienda: "bueno",
+    estadoMobiliario: "bueno",
+};
