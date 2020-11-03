@@ -15,9 +15,7 @@ export const MultipleImageInput = (props: any) => {
             if (Platform.OS !== "web") {
                 const { status } = await ImagePicker.requestCameraRollPermissionsAsync();
                 if (status !== "granted") {
-                    alert(
-                        "Lo siento, la aplicación necesita permisos de cámara para poder enviar fotos"
-                    );
+                    alert("La aplicación necesita permisos de cámara para poder enviar fotos");
                 }
             }
         })();
