@@ -1,8 +1,10 @@
 {
     "expo": {
         "name": "Credimart",
+        "description": "Aplicación para registrar solicitudes de préstamos de Credimart",
         "slug": "credimart",
-        "platforms": ["android", "web"],
+        "platforms": ["ios", "android"],
+        "privacy": "unlisted",
         "version": "1.0.0",
         "orientation": "portrait",
         "icon": "./assets/icon.png",
@@ -15,6 +17,10 @@
             "fallbackToCacheTimeout": 0
         },
         "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "bundleIdentifier": "com.credimart.credimart",
+            "buildNumber": "1.0.0"
+        },
         "android": {
             "package": "com.credimart.credimart",
             "versionCode": 1,
@@ -22,7 +28,12 @@
                 "googleMaps": {
                     "apiKey": "AIzaSyCYCdgt-Cgdxjm-wRD0MX7aPDW8iRnTMTw"
                 }
-            }
+            },
+            "permissions": ["CAMERA", "ACCESS_FINE_LOCATION", "ACCESS_FINE_LOCATION"]
+        },
+        "androidStatusBar": {
+            "backgroundColor": "#085E18",
+            "barStyle": "light-content"
         }
     }
 }
