@@ -381,9 +381,7 @@ const InputGPSLocation = (props: any) => {
                 setIsLoading(true);
                 Location.requestPermissionsAsync().then(({ status }) => {
                     if (status !== "granted") {
-                        setErrorMsg(
-                            "Permisos para utilizar los servicios de localización fue denegado."
-                        );
+                        setErrorMsg("La aplicación no tiene permisos para utilizar el GPS");
                         setIsLoading(false);
                         setIsReady(false);
                     } else {

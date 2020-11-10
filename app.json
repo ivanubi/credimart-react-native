@@ -29,7 +29,14 @@
                     "apiKey": "AIzaSyCYCdgt-Cgdxjm-wRD0MX7aPDW8iRnTMTw"
                 }
             },
-            "permissions": ["CAMERA", "ACCESS_FINE_LOCATION", "ACCESS_FINE_LOCATION"]
+            "permissions": [
+                "CAMERA",
+                "READ_EXTERNAL_STORAGE",
+                "ACCESS_COARSE_LOCATION",
+                "ACCESS_FINE_LOCATION",
+                "WRITE_EXTERNAL_STORAGE",
+                "FOREGROUND_SERVICE"
+            ]
         },
         "androidStatusBar": {
             "backgroundColor": "#085E18",
